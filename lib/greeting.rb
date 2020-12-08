@@ -1,7 +1,7 @@
 
 def greeting
   puts "Hello, what is your name?"
-  name = gets.chomp()
+  name = gets.strip()
   puts "Hello #{name}. It's nice to meet you."
 end
 
